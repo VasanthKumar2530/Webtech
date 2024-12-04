@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+
+#main{
+    position: absolute;
+    top: 20%;
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+#top{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content:space-between;
+    /* border: 2px double black; */
+text-align: center;
+gap: 10%;
+}
+/* #search{
+    position: relative;
+    top: 20px;
+} */
+#images{
+    display: flex;
+    flex-direction: row;
+    background-color: skyblue;
+
+}
+#others{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+
+
+}
+#humidity,#wind{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#humidity svg,#wind svg{
+position: relative;
+top: 5%;
+left: 45%;
+bottom: 0px;
+}
+
+
